@@ -4,32 +4,12 @@
   --accent-color: #d7df23;
   --buttons-color: #d7df23;
   --active-color: #ec008c;
-  --heading-font: "Helvetica";
-  --text-font: "Helvetica", Helvetica, Arial, sans-serif;
+  --heading-font: "aller-display", sans-serif;
+  --text-font: "Helvetica", Arial, sans-serif;
 }
 
 body {
   background-color: var(--hero-color);
-}
-h1 {
-  font-family: var(--heading-font);
-  text-align: center;
-  font-size: 80px;
-  font-weight: bold;
-  color: var(--primary-color);
-}
-
-h2 {
-  font-family: var(--text-font);
-  color: var(--accent-color);
-}
-
-h3 {
-  font-family: var(--heading-font);
-  font-weight: bold;
-  color: var(--active-color);
-  font-size: 30px;
-  text-align: center;
 }
 
 h4 {
@@ -39,14 +19,6 @@ h4 {
   font-size: 18px;
   text-align: center;
   margin-top: 10px;
-}
-
-p {
-  font-family: var(--text-font);
-  font-size: 30px;
-  font-weight: normal;
-  color: var(--active-color);
-  line-height: 1.5;
 }
 
 .logo-image {
@@ -134,8 +106,46 @@ nav h3 {
   size: cover;
   position: center center;
 }
+/* about section */
+.about {
+  background-color: var(--accent-color);
+  padding: 60px;
+}
 
-/* back to top */
+h1 {
+  font-family: var(--heading-font);
+  text-align: center;
+  font-size: 80px;
+  font-weight: bold;
+  color: var(--active-color);
+}
+
+p {
+  font-family: var(--text-font);
+  text-align: center;
+  font-size: 35px;
+  font-weight: normal;
+  color: var(--primary-color);
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  color: var(--active-color);
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--heading-font);
+  color: var(--active-color);
+  font-size: 30px;
+  text-align: center;
+  padding-top: 45px;
+}
+
+/* bottom */
 
 .hero-back {
   text-align: center;
