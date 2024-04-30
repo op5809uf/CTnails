@@ -2,8 +2,8 @@
   --primary-color: #92278f;
   --hero-color: #ffffff;
   --accent-color: #d7df23;
-  --buttons-color: #ec008c;
-  --active-color: #d7df23;
+  --buttons-color: #d7df23;
+  --active-color: #ec008c;
   --heading-font: "Helvetica";
   --text-font: "Helvetica", Helvetica, Arial, sans-serif;
 }
@@ -56,7 +56,7 @@ p {
   overflow: hidden;
   margin-top: 20px;
   margin-left: 50px;
-  margin-bottom: -105px;
+  margin-bottom: -80px;
 }
 
 .favicon-image {
@@ -84,7 +84,7 @@ nav {
 
 nav ul {
   padding-right: 50px;
-  padding-top: 35px;
+  padding-top: 65px;
 }
 
 nav li {
@@ -102,7 +102,7 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--active-color);
+  color: var(--accent-color);
   transition: all 100ms ease-in-out;
 }
 
@@ -125,7 +125,7 @@ nav h3 {
 }*/
 
 .active {
-  color: var(--accent-color);
+  color: var(--active-color);
 }
 
 .hero-image {
