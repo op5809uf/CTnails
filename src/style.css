@@ -12,15 +12,6 @@ body {
   background-color: var(--hero-color);
 }
 
-h4 {
-  font-family: var(--heading-font);
-  font-weight: bold;
-  color: var(--accent-color);
-  font-size: 18px;
-  text-align: center;
-  margin-top: 10px;
-}
-
 .logo-image {
   width: 200px;
   height: 200px;
@@ -123,13 +114,13 @@ h1 {
 p {
   font-family: var(--text-font);
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: normal;
   color: var(--primary-color);
   line-height: 1.5;
 }
 
-h3 {
+h2 {
   font-family: var(--heading-font);
   font-weight: bold;
   color: var(--active-color);
@@ -137,7 +128,7 @@ h3 {
   text-align: center;
 }
 
-h2 {
+h3 {
   font-family: var(--heading-font);
   color: var(--active-color);
   font-size: 30px;
@@ -184,6 +175,9 @@ hr {
   transition: all 100ms ease-in-out;
 }
 
+.map {
+  padding-left: 40px;
+}
 /* footer */
 
 footer {
@@ -193,26 +187,8 @@ footer {
 footer .contact-box {
   background: var(--hero-color);
   padding: 60px 60px;
-}
-
-footer .social-links {
-  font-size: 50px;
-  padding-top: 20px;
-  padding-left: 60px;
-}
-
-footer .social-links a {
-  color: var(--buttons-color);
-  margin: 0 10px;
-}
-
-footer .social-links a:hover {
-  color: var(--active-color);
-}
-
-footer h2 {
   font-size: 30px;
-  padding-top: 28px;
+  color: var(--active-color);
 }
 
 /* media 1 */
